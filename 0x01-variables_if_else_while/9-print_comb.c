@@ -1,23 +1,22 @@
 #include <stdio.h>
-
 /**
- * main- entry point
+ * main - Entry point
  *
- * Return: Always 0 <Success>
+ * Return: Always 0 (Success)
  */
-int main<void>
+int main(void)
 {
-	int i;
+	int k;
 
-	for <i = 48; i < 58; i++>
+	for (k = 48; k <= 57; k++)
 	{
-		putchar(i);
-		if (i != 57)
+		putchar(k);
+		if (k < 57)
 		}
-	               putchar<','>;
-		       putchar<' '>;
+	               putchar(',');
+		       putchar(' ');
 		}
         }
         putchar('\n');
-	return <0>;
+	return (0);
 }
