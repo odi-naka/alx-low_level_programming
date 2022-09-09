@@ -1,17 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int k;
+	int i;
 
-	for (k = 48; k <= 57; k++)
+	for (i = 48; k <= 57; i++)
 	{
-		putchar(k);
-		if (k < 57)
+		putchar(i);
+		if (i != 57)
 		}
 	               putchar(',');
 		       putchar(' ');
