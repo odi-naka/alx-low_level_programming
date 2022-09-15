@@ -6,7 +6,7 @@
  *
  * @n: The int to print
  *
- * Retrn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int _abs(int n)
 {
