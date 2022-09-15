@@ -12,7 +12,7 @@ int main(void)
 
 	k = 2;
 
-	for (i = 1; i <= 50; ++i
+	for (i = 1; i <= 50; ++i)
 	{
 			
 		if (j != 20365011074)
@@ -27,4 +27,4 @@ int main(void)
 	        j = k;
 	        k = 1;
 	}
-	return (0)
+	return (0);
