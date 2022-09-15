@@ -8,6 +8,7 @@
 int main(void)
 {
 	long int i, j, k, l;
+	
 	j = 1;
 
 	k = 2;
@@ -23,8 +24,9 @@ int main(void)
 		{
 		        printf("%ld\n", j);
 		}
-	        1 = j + k;
+	        l = j + k;
 	        j = k;
-	        k = 1;
+	        k = l;
 	}
 	return (0);
+}
