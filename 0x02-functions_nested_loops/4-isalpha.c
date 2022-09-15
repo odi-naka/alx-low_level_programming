@@ -14,6 +14,6 @@ int _isalpha(int c)
 	}
 	else
 	{
-		retun (0);
+		return (0);
 	}
 }
