@@ -3,7 +3,7 @@
 /**
  * _islower - prints the alphabets in lowercase
  * @c: contains value to be compared
- * Return; Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int _islower(int c)
 {
