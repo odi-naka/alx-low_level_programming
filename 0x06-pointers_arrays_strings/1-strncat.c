@@ -1,29 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reverse_array - Reverse the content of an array of integers
- * @a: An array of integers 
- * @n: Number of elements to swap 
+ * _strncat - Concatenates two strings using at most
+ *            an inputted number of bytes from src.
+ * @dest: The string to be appended upon.
+ * @src: The string to be appended to dest.
+ * @n: The number of bytes from src to be appended to dest.
  *
- * Return: empty
+ * Return: A pointer to the resulting string dest.
  */
-void reverse_array(int *a, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int *p, i, aux, k;
+     int index = 0, dest_len = 0;
 
-	p = a;
-
-	for (i = 1; i < n; i++)
-	{
-		p++;
-	}
-
-	for (k = 0; k < i / 2; k++)
-	{
-		aux = a[k];
-		a[k] = *p;
-		*p = aux;
-		p--;
-	}
+     while (dest[index++])
+	     dest_len++;
+     for (index = 0; src[index] && index < n; index++)
+	     dest[dest_len++] = src[index];
+     return (dest);
 }
